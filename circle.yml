@@ -1,3 +1,7 @@
+test:
+    override:
+        # no-op that exits clean
+        - echo 'ohai'
 deployment:
     production:
         branch: master
