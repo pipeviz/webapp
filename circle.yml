@@ -1,0 +1,6 @@
+deployment:
+    production:
+        branch: master
+        commands:
+            # tip the script
+            - ssh -p 33261 sdboyer@pipeviz.sdboyer.io
